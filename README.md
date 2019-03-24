@@ -7,4 +7,16 @@ Utility for displaying the fields of a Stanag 4607 file as text. It uses the s46
 ## Running
 Supply the file to display as an argument to the program:
     $ _build/default/bin/display_4607 filename.4607
-
+This should generate text output which should begin in a similar manner as the following snippet, which shows the first part of the first packet header: 
+```
+****************************************
+** @pheader
+Version: 3.0
+Packet size: 76 
+Nationality: "UK"
+Classification: unclassified
+Classification System: "UK"
+Packet code: none
+Exercise Indication: exercise_simulated
+...
+```
